@@ -1,0 +1,181 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int main()
+{
+	int month;
+	int day;
+	int year;
+	
+	cout<<" _____________________________ "<<endl;
+	cout<<"|                             |"<<endl;
+	cout<<"|       USER'S BIRTHDAY       |"<<endl;
+	cout<<"|_____________________________|"<<endl<<endl;
+	
+	cout<<"Enter your Birth Month (1-12): ";
+	cin>>month;
+
+	cout<<"Enter your Birth Day: ";
+	cin>>day;
+	
+	cout<<"Enter your Birth Year: ";
+	cin>>year;
+	
+	cout<<endl<<"_________________________________"<<endl;
+	
+	switch(month)
+	{
+		case 1:
+			
+			if(day<=0 || day>=32)
+			{
+				cout<<endl<<"DAY AND MONTH DOESN'T MATCH!";
+			}
+			else
+			{
+				cout<<endl<<"January "<<day<<", "<<year;
+			}
+			break;
+			
+		case 2:
+			
+			if(day<=0 || day>=29)
+			{
+				cout<<endl<<"DAY AND MONTH DOESN'T MATCH!";
+			}
+			else
+			{
+				cout<<endl<<"February "<<day<<", "<<year;	
+			}
+			break;
+			
+		case 3:
+			
+			if(day<=0 || day>=31)
+			{
+				cout<<endl<<"DAY AND MONTH DOESN'T MATCH!";
+			}
+			else
+			{
+				cout<<endl<<"MARCH "<<day<<", "<<year;	
+			}
+			break;
+		
+		case 4:
+			
+			if(day<=0 || day>=30)
+			{
+				cout<<endl<<"DAY AND MONTH DOESN'T MATCH!";
+			}
+			else
+			{
+				cout<<endl<<"April "<<day<<", "<<year;	
+			}
+			break;
+			
+		case 5:
+			
+			if(day<=0 || day>=31)
+			{
+				cout<<endl<<"DAY AND MONTH DOESN'T MATCH!";
+			}
+			else
+			{
+				cout<<endl<<"May "<<day<<", "<<year;	
+			}
+			break;
+			
+		case 6:
+			
+			if(day<=0 || day>=30)
+			{
+				cout<<endl<<"DAY AND MONTH DOESN'T MATCH!";
+			}
+			else
+			{
+				cout<<endl<<"June "<<day<<", "<<year;	
+			}
+			break;
+			
+		case 7:
+			
+			if(day<=0 || day>=31)
+			{
+				cout<<endl<<"DAY AND MONTH DOESN'T MATCH!";
+			}
+			else
+			{
+				cout<<endl<<"July "<<day<<", "<<year;	
+			}
+			break;
+			
+		case 8:
+			
+			if(day<=0 || day>=31)
+			{
+				cout<<endl<<"DAY AND MONTH DOESN'T MATCH!";
+			}
+			else
+			{
+				cout<<endl<<"August "<<day<<", "<<year;	
+			}
+			break;
+			
+		case 9:
+			
+			if(day<=0 || day>=30)
+			{
+				cout<<endl<<"DAY AND MONTH DOESN'T MATCH!";
+			}
+			else
+			{
+				cout<<endl<<"September "<<day<<", "<<year;	
+			}
+			break;
+			
+		case 10:
+			
+			if(day<=0 || day>=31)
+			{
+				cout<<endl<<"DAY AND MONTH DOESN'T MATCH!";
+			}
+			else
+			{
+				cout<<endl<<"October "<<day<<", "<<year;	
+			}
+			break;
+			
+		case 11:
+			
+			if(day<=0 || day>=30)
+			{
+				cout<<endl<<"DAY AND MONTH DOESN'T MATCH!";
+			}
+			else
+			{
+				cout<<endl<<"November "<<day<<", "<<year;	
+			}
+			break;
+			
+		case 12:
+			
+			if(day<=0 || day>=31)
+			{
+				cout<<endl<<"DAY AND MONTH DOESN'T MATCH!";
+			}
+			else
+			{
+				cout<<endl<<"December "<<day<<", "<<year;	
+			}
+			break;
+
+		default:
+			cout<<endl<<"INVALID MONTH!";
+	}
+	
+		cout<<endl<<"_________________________________";
+	
+	
+	_getch();
+	return 0;
+}
